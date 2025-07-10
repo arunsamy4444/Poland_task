@@ -100,7 +100,7 @@ async function fetchListingProducts(pageSize = 14) {
 
       card.innerHTML = `
         <div class="product-top">
-        <span style="position:absolute;top:12px;left:12px;color:#000;font-weight:600;font-size:13px;">ID: ${String(index + 1).padStart(2, "0")}</span>
+        <span class="product-id">ID: ${String(index + 1).padStart(2, "0")}</span>
 
           <img src="${product.image}" alt="Product Image" class="product-img" />
         </div>
