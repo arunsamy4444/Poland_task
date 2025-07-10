@@ -474,3 +474,41 @@ h2, h5 {
   padding: 4px 8px;
 }
 
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .modal-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .modal-img {
+    max-height: 220px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 12px;
+    border-radius: 6px;
+  }
+
+  .modal-id {
+    font-size: 14px;
+    margin-top: 10px;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  .modal-close {
+    font-size: 13px;
+    padding: 4px 10px;
+    margin-top: 6px;
+  }
+}
+
