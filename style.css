@@ -1,6 +1,4 @@
-/* ===========================================================
-   GLOBAL RESET & BASE STYLES
-=========================================================== */
+/* GLOBAL RESET & BASE STYLES*/
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +16,7 @@ h2, h5 {
   margin-left: 20px; 
 }
 
-/* ===========================================================
-    NAVBAR
-=========================================================== */
+/*NAVBAR*/
 .navbar {
   width: 100%;
   height: 88px;
@@ -61,7 +57,6 @@ h2, h5 {
   font-weight: 500;
 }
 
-/*  Add this to only underline the HOME link */
 .nav-link[href="#home"] {
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -99,7 +94,7 @@ h2, h5 {
 .mobile-menu {
   display: none; /* hidden by default */
   position: absolute;
-  top: 88px; /* adjust based on navbar height */
+  top: 88px;
   right: 0;
   width: 100%;
   background: #fff; /* white background */
@@ -116,9 +111,7 @@ h2, h5 {
   display: block;
 }
 
-/* ===========================================================
-    HERO SECTION
-=========================================================== */
+/* HERO SECTION*/
 .hero-section {
   width: 100%;
   margin: 0 auto;
@@ -144,9 +137,7 @@ h2, h5 {
   margin: 0 32px;
 }
 
-/* ===========================================================
-    PRODUCT FEATURED GRID
-=========================================================== */
+/* PRODUCT FEATURED GRID */
 .product-carousel-container {
   position: relative;
   width: 100%;
@@ -173,9 +164,7 @@ h2, h5 {
   background-color: #dcdcdc;
 }
 
-/* ===========================================================
-   PRODUCT LISTING GRID
-=========================================================== */
+/* PRODUCT LISTING GRID*/
 .product-listing-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -261,9 +250,7 @@ h2, h5 {
   color: #555;
 }
 
-/* ===========================================================
-    AD CARD STYLING
-=========================================================== */
+/* AD CARD STYLING */
 .ad-card {
   grid-column: span 2;
   width: 100%;
@@ -306,9 +293,7 @@ h2, h5 {
   cursor: pointer;
 }
 
-/* ===========================================================
-    CAROUSEL ARROW BUTTONS
-=========================================================== */
+/* CAROUSEL ARROW BUTTONS */
 .carousel-arrow {
   position: absolute;
   top: 50%;
@@ -328,9 +313,7 @@ h2, h5 {
 .left-arrow { left: 10px; }
 .right-arrow { right: 10px; }
 
-/* ===========================================================
-    MEDIA QUERIES
-=========================================================== */
+/*  MEDIA QUERIES */
 
 /* Hide carousel arrows on desktop */
 @media (min-width: 769px) {
@@ -412,8 +395,8 @@ h2, h5 {
     left: 8px;
     font-size: 6px;
      /* subtle background to improve contrast */
-    padding: 2px 6px;                  /* padding for clarity */
-    border-radius: 4px;                /* rounded corners for aesthetic */
+    padding: 2px 6px;                 
+    border-radius: 4px;               
   }
 
   .ad-card {
@@ -475,7 +458,7 @@ h2, h5 {
   height: auto;
   max-height: 400px;
   object-fit: contain;
-   margin-bottom: 12px;/* ✅ Add this */
+   margin-bottom: 12px;
 }
 
 .modal-header {
@@ -488,7 +471,7 @@ h2, h5 {
 .modal-id {
   font-weight: bold;
   font-size: 16px;
-   margin-top: 8px; /* ✅ Add this */ 
+   margin-top: 8px;
   display: block;
 }
 
